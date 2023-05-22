@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@font-face
+{
+    font-family: 'BEYNO';
+    src: url(../ASSETS/fonts/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'panthera';
+    src: url(../ASSETS/fonts/panthera.otf);
+}
+
+@font-face {
+    font-family: 'Wakanda4Ever';
+    src: url(../ASSETS/fonts/Wakanda4Ever-gxg5p.ttf);
+}
+
+@font-face
+{
+    font-family: 'Cantarell';
+    src: url(../ASSETS/fonts/Cantarell-Regular.ttf);
+}
+
+/* Les couleurs */
+:root
+{
+    --white-color: #FFFFFF;
+    --grandiant-pink: #F2CFF2;
+    --grey-color: #9E91B7;
+    --pink-color: #DF99F2;
+    --purple-color: #3D2DA6;
+    --blue-color: #07338C;
+    --dark-blue: #021740;
+}
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url('../ASSETS/Allpages/arrière_plan.png');
+    color: var(--white-color);
+}
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+h1
+{
+    font-family: 'panthera';
+}
+/* Design en haut */
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul
+{
+    display: flex;
+}
+li
+{
+    padding: 20px;
+    list-style-type: none;
+}
+.marvel
+{
+    margin: 10px;
+}
+
+/* Design black panther */
+.black-panther
+{
+    display: flex;
+    margin-top: 40px;
+}
+img.panther
+{
+    width: 120%;
+    height: 100%;
+}
+.description
+{
+    width: 60%;
+    margin-top: 15%;
+}
+.suite
+{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid;
+    color: var(--white-color);
+}
+
+/* Design personnages */
+.personnages
+{
+    display: flex;
+    justify-content: space-between;
+    height: 341px;
+    flex-wrap: nowrap;
+    background-color: var(--blue-color);
+    margin-bottom: 15%;
+}
+.personnages > div
+{
+        text-align: center;
+}
+
+/* Design naissance prince */
+.naissance-prince
+{
+    display: flex;
+    justify-content: space-between;
+}
+.textes,
+.renseignement
+{
+    margin: 50px;
+    text-align: justify;
+}
+/* Design contact */
+#contact
+{
+    background-image: url('../ASSETS/Accueil/Pantherhome7.png');
+    height: 900px;
+    padding: 10px;
+}
+.aide-contact
+{
+    background-color: #cfcccc;
+    color: var(--dark-blue);
+    border-radius: 150px;
+    text-align: center;
+    margin-top: 20%;
+    padding: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
