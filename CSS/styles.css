@@ -127,20 +127,44 @@ img.panther
     display: flex;
     justify-content: space-between;
 }
-.textes,
+.textes
+{
+    margin: 50px;
+    text-align: justify;
+    padding-left: 20px;
+    width: 750px;
+}
+.textes h3
+{
+    padding-top: 50px;
+}
 .renseignement
 {
     margin: 50px;
     text-align: justify;
     padding-left: 20px;
+    width: 250px;
+}
+img.black
+{
+    width: 250px;
+    height: 350px;
+    margin: 0 30px 0 30px;
+}
+.panther1
+{
+    position: absolute;
 }
 .identite
 {
     background-color: var(--white-color);
     border-radius: 20px;
     color: var(--dark-blue);
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    width: 310px;
+    height: 550px;
+    margin-top: 70%;
 }
 .btn
 {
@@ -148,6 +172,7 @@ img.panther
     display: flex;
     justify-content: space-around;
     color: var(--white-color);
+    margin: 0 30px 0 30px;
 }
 input[type="radio"] 
 {
@@ -159,7 +184,7 @@ input[type="radio"]
     border-radius: 5px ;
     background-color: var(--purple-color);
     padding: 10px;
-    font-size: 12px;
+    font-size: 8px;
 }
 .Tcl
 {
@@ -168,11 +193,19 @@ input[type="radio"]
 }
 .carte
 {
-    padding-left: 70px;
+    margin: 0 30px 0 30px;
+    font-size: 10px;
+    
 }
 .rond
 {
-    margin-top: 80px;
+    margin-top: 60px;
+   
+}
+.rondi
+{
+    width: 350px;
+    height: 300px;
 }
 /* Design contact */
 #contact
@@ -193,41 +226,51 @@ input[type="radio"]
     margin-left: 100px;
     margin-right: 100px;
 }
-.petit
+input[type=Email],
+input[type=Nom] 
 {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: transparent;
     border-radius: 30px;
     border-color: var(--purple-color);
     border: 1px solid;
-    height: 56px;
-    weight:520px;
-    margin: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+   
+}
+input[type=Email]:focus,
+input[type=Nom]:focus 
+{
+    background-color: transparent;
+    outline: none;
+    border-radius: 30px;
+    border-color: var(--purple-color);
+    border: 1px solid;
 
 }
-.message
+.registerbtn 
 {
-    border-radius: 30px;
-    border-color: var(--purple-color);
-    border: 1px solid;
-    height: 150px;
-    margin: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    background-color: var(--pink-color);
+    color: black;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border-radius: 38px;
+    cursor: pointer;
+    width: 174px;
+    height: 54px;
+    opacity: 0.9;
+    border: none;
 }
-.envoie
+
+.registerbtn:hover 
 {
-    border-radius: 30px;
-    border-color: var(--purple-color);
-    border: 1px solid;
-    height: 50px;
-    margin: 20px;
-    background-color: var(--white-color);
-    color: var(--purple-color);
+    opacity: 1;
 }
-.envoie:hover
+.petit
 {
-    box-shadow: 0 0 20px #021740;
+    height: 170px;
 }
 
 /* Design footer */
@@ -301,7 +344,7 @@ p
 {
     font-family: 'Cantarell';
     font-size: 12px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 h3
 {
