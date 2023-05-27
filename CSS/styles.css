@@ -64,7 +64,7 @@ ul
 {
     display: flex;
 }
-li
+li.ft
 {
     padding: 20px;
     list-style-type: none;
@@ -109,15 +109,43 @@ img.panther
     text-decoration: underline;
 }
 
+/* Acceuil */
+.container-special
+{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.kill img,
+.okyo img
+{
+    height: 250px;
+}
+
+.pkill,
+.pokyo
+{
+    padding: 15px;
+}
+.cousin
+{
+    position: relative;
+    bottom: 30px;
+        padding-left: 30px;
+   
+}
+.cousin img
+{
+height: 320px;
+}
 /* Design personnages */
 .personnages
 {
     display: flex;
     justify-content: space-between;
-    height: 341px;
+    height: 250px;
     flex-wrap: nowrap;
     background-color: var(--blue-color);
-    margin-bottom: 15%;
+    margin-bottom: 5%;
     text-align: justify;
 }
 
@@ -129,7 +157,7 @@ img.panther
 }
 .textes
 {
-    margin: 50px;
+
     text-align: justify;
     padding-left: 20px;
     width: 750px;
@@ -225,7 +253,9 @@ input[type="radio"]
     padding: 10px;
     margin-left: 100px;
     margin-right: 100px;
+   opacity: 0.7;
 }
+
 input[type=Email],
 input[type=Nom] 
 {
@@ -278,55 +308,117 @@ footer
 {
     background-image: url(../ASSETS/Allpages/back_footer.png);
     margin-top: 140px;
+    color: var(--white-color);
     Background: linear-gradient(180deg, #3D2DA6 0%, #021740 90.43%);
 }
-.disposition
+
+
+
+.flex-container0 
 {
     display: flex;
-    justify-content: space-between;
-}
-.img1
-{
-    height: 60%;
-    background-image: url(../ASSETS/Allpages/footer2.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
-.logofooter
+.flex-container0 .div
 {
-    margin-top: 15%;
+    width: 30%;
+   
+
 }
-.ulfooter
+.img2 
+{
+    position: relative;
+    left: 100px;
+    top: 120px;
+}
+.dodo img 
+{
+    padding: 10px;
+}
+.img1 
+{
+    position: relative;
+    left: 150px;
+    bottom: 25px;
+}
+
+.flex-container0 .divs 
+{
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 70%;
+}
+
+
+.flex-container1 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container1 .did 
+{
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 12px;
+}
+
+.didi 
+{
+
+    width: 90%;
+    margin-left: auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+.flex-container2 
+{
+    display: flex;
+}
+
+.flex-container2 .page
+{
+    width: 40%;
+    line-height: 10px;
+    margin-top: 60px;
+}
+.page ul
 {
     display: grid;
+    color: var(--white-color);
+   
+
 }
-.pages
-{
-    margin-top: 15%;
-    width: 50%;
-}
-.retrouve
-{
-    margin-top: 15%;
-}
-.social
-{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-.textesfooter
-{
-    display: flex;
-}
-.hfooter
+.didi ul li.ft
 {
     color: var(--white-color);
-    font-family: 'Cantarell';
-    font-size: 22px;
-    letter-spacing: 28%;
+    padding: 0px;
 }
+li
+{
+    margin: 10px;
+    
+}
+
+
+.flex-container2 .socialfooter
+{
+    margin: 10px;
+    padding: 20px;
+    width: 60%;
+}
+.socialfooter h3,
+.page h3
+{
+    letter-spacing: 28%;
+        font-family: 'Cantarell';
+        font-size: 22px;
+}
+
 
 /* Les polices */
 .titre
@@ -351,6 +443,7 @@ h3
     font-family: 'BEYNO';
     font-size: 20px;
     color: var(--grey-color);
+    margin-top: 20px;
 }
 
 /* CSS du page Wakanda */
@@ -359,8 +452,8 @@ h3
     background-image: url(../ASSETS/Wakanda/Pantherwakanda1.png);
     height: 900px;
     background-repeat: no-repeat;
-        background-position: top center;
-            background-size: cover;
+    background-position: top center;
+    background-size: cover;
 }
 .parties
 {
@@ -371,6 +464,7 @@ h3
     background-size: cover;
     margin-top: 20px;
     text-align: justify;
+    justify-content: space-between;
 }
 .forever
 {
@@ -393,11 +487,26 @@ h3
 .liens-video
 {
     background-color: var(--purple-color);
-    height: 200px;
+    height: 230px;
     padding-left: 20px;
     padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.soldat
+{
+    height: 250px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.wakagauche
+{
+    width: 100%;
+}
+.wakadroite
+{
+    width: 100%;
 }
 
 /* Page d'Enigme */
@@ -482,7 +591,7 @@ img.dora
     position: fixed;
     border-left: 3px solid var(--grey-color);
     left: 30px;
-    height: 50%;
+    height: 51%;
 }
 .bar2
 {
@@ -494,10 +603,14 @@ img.dora
 }
 .avec
 {
-    margin-top: 200px;
+    margin-top: 190px;
     display: grid;
-    margin-right: 30px;
-
+    margin-left: 40px; 
+    position: fixed;
+}
+.avec img 
+{
+        padding-top: 10px;
 }
 .ensemble
 {
