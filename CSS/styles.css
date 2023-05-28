@@ -69,15 +69,24 @@ li.ft
     padding: 20px;
     list-style-type: none;
     color: var(--purple-color);
+    text-decoration: none;
 }
-.nav ul li:hover 
+li.ft:hover 
 {
-    text-decoration: underline;
-    color: var(--white-color);
+    border-bottom-color: var(--white-color);
+}
+nav a.active 
+{
+    color: var(--purple-color);
+    border-bottom-color: var(--purple-color);
 }
 .marvel
 {
     margin: 10px;
+}
+.marvel2 a img:hover
+{
+    color: var(--purple-color);
 }
 
 
@@ -335,6 +344,10 @@ footer
 {
     padding: 10px;
 }
+.dodo img:hover
+{
+        transform: scale(1.1);
+}
 .img1 
 {
     position: relative;
@@ -342,6 +355,10 @@ footer
     bottom: 25px;
 }
 
+.div:hover
+{
+    transform: scale(1.1);
+}
 .flex-container0 .divs 
 {
     margin: 10px;
@@ -607,6 +624,10 @@ img.dora
     display: grid;
     margin-left: 40px; 
     position: fixed;
+}
+.avec img:hover
+{
+    color: var(--white-color);
 }
 .avec img 
 {
